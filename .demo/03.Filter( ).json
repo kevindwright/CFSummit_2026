@@ -1,0 +1,77 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Filter ( )",
+  "description": "",
+  "version": 3,
+  "scenes": [
+    {
+      "title": "Introduction Slide",
+      "description": "Display the opening slide to introduce the demo",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/filter-intro.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9rpqvp-77cq",
+      "title": "Legacy Filter",
+      "description": "Legacy Filter",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "03-filter/3A_arrayFilter.cfm",
+          "position": "1:18",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9swn34-aqqw",
+      "title": "Array.Filter",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "03-filter/3A_arrayFilter.cfm",
+          "position": "20:20",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9t1fux-6cdj",
+      "title": "Multiple ",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "03-filter/3A_arrayFilter.cfm",
+          "position": "22:31",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9tp9d1-v8c7",
+      "title": "Chaining",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "03-filter/3B_arrayFilter.cfm",
+          "position": "1:25",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9u82gf-b28o",
+      "title": "Review and Recap",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/filter-recap.md"
+        }
+      ]
+    }
+  ]
+}

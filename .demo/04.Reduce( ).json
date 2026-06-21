@@ -1,0 +1,77 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Reduce ( )",
+  "description": "Reduce ( )",
+  "version": 3,
+  "scenes": [
+    {
+      "id": "scene-mq9v5a78-ochq",
+      "title": "Introduction",
+      "description": "Introduction",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/reduce-intro.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9v7jby-h5jm",
+      "title": "Legacy ",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "04-reduce/4A_reduce.cfm",
+          "position": "1:18",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9x59rj-5hzt",
+      "title": "Array.Reduce",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "04-reduce/4A_reduce.cfm",
+          "position": "22:28",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9xmd5y-yzk4",
+      "title": "Legacy Complex Return",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "04-reduce/4B_reduce.cfm",
+          "position": "1:11",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9xy0dy-lnhc",
+      "title": "Modern Complex Return",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "04-reduce/4B_reduce.cfm",
+          "position": "15:34",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mq9x8sm0-6cg7",
+      "title": "Review and Recap",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/reduce-recap.md"
+        }
+      ]
+    }
+  ]
+}

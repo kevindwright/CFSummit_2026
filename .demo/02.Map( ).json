@@ -1,0 +1,81 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Map ( )",
+  "description": "Map ( )",
+  "version": 3,
+  "demos": [
+    {
+      "title": "Introduction Slide",
+      "description": "Display the opening slide to introduce the demo.",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/map-intro.md"
+        }
+      ]
+    },
+    {
+      "title": "Legacy Tag Loop",
+      "description": "Array.map",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "02-map/2A_arrayMap.cfm",
+          "position": "2:18",
+          "highlightWholeLine": true,
+          "highlightOpacity": 0.75
+        }
+      ]
+    },
+    {
+      "title": "Legacy Script Loop",
+      "description": "Array.map",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "02-map/2B_arrayMap.cfm",
+          "position": "2:17",
+          "highlightWholeLine": true,
+          "highlightOpacity": 0.75
+        }
+      ]
+    },
+    {
+      "title": "Array.Map",
+      "description": "Array.Map",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "02-map/2B_arrayMap.cfm",
+          "position": "19:23",
+          "highlightWholeLine": true,
+          "highlightOpacity": 0.75
+        }
+      ]
+    },
+    {
+      "title": "Map Output",
+      "description": "Map Output",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/map-output.md"
+        },
+        {
+          "action": "open",
+          "path": ".demo/slides/images/map.png"
+        }
+      ]
+    },
+    {
+      "title": "Review and Recap",
+      "description": "Recap queryExecute benefits",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/map-recap.md"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Parallel Processing",
+  "description": "",
+  "version": 3,
+  "scenes": [
+    {
+      "id": "scene-mqa07h56-rm91",
+      "title": "Introduction",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/parallel-intro.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mqgp7f4x-gzel",
+      "title": "Sequential Processing",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "07-parallell-processing/7A_parallel.cfm",
+          "position": "1:14",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqgq7no7-beai",
+      "title": "CFThread",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "07-parallell-processing/7A_parallel.cfm",
+          "position": "17:38",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa0qhr0-61an",
+      "title": "Review and Recap",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/parallel-recap.md"
+        }
+      ]
+    }
+  ]
+}

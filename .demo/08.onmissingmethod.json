@@ -1,0 +1,75 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "08.onMissingMethod",
+  "description": "",
+  "version": 3,
+  "scenes": [
+    {
+      "id": "scene-mqh68f9l-ftbd",
+      "title": "Introduction",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/onMissingMethod-intro.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mqmhyl7p-x3ue",
+      "title": "MathService",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "08-onMissingMethod/MathService.cfc",
+          "position": "1:2",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqmi18hm-8lir",
+      "title": "LoggingDecorator",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "08-onMissingMethod/LoggingDecorator.cfc",
+          "position": "1:2",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqmi3cj7-lbe7",
+      "title": "Call Logger",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "08-onMissingMethod/index.cfm",
+          "position": "1:2",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqn707e3-haxx",
+      "title": "Open Log File",
+      "moves": [
+        {
+          "action": "open",
+          "path": "c:/ColdFusion2023/cfusion/logs/decorator_log.log",
+          "focusTop": false
+        }
+      ]
+    },
+    {
+      "id": "scene-mqmj7vtz-knfb",
+      "title": "Open Browser",
+      "moves": [
+        {
+          "action": "openWebsite",
+          "url": "http://cfsummit.localhost/demos/08-onMissingMethod/"
+        }
+      ]
+    }
+  ]
+}

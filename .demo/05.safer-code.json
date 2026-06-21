@@ -1,0 +1,100 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Safer Code Structure",
+  "description": "",
+  "version": 3,
+  "scenes": [
+    {
+      "id": "scene-mq9ym5z7-tvum",
+      "title": "Introduction",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/saferCode-intro.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa0v13k-qgcd",
+      "title": "Elvis - Legacy",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "05-safer-code-structure/elvisOperator.cfm",
+          "position": "2:17",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa1qm94-j9km",
+      "title": "Elvis - Modern",
+      "moves": [
+        {
+          "action": "highlight",
+          "position": "20:24",
+          "highlightWholeLine": true,
+          "path": "05-safer-code-structure/elvisOperator.cfm"
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa0w7py-4wav",
+      "title": "SafeNav - Legacy",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "05-safer-code-structure/safeNavigation.cfm",
+          "position": "1:13",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa2r113-inbx",
+      "title": "SafeNav - Modern",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "05-safer-code-structure/safeNavigation.cfm",
+          "position": "15:23",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa1mus9-4bhc",
+      "title": "Ternary - Legacy",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "05-safer-code-structure/ternary.cfm",
+          "position": "1:10",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa3h823-9nn1",
+      "title": "Ternary - Modern",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "05-safer-code-structure/ternary.cfm",
+          "position": "11:16",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa41s1q-ltqt",
+      "title": "Review and Recap",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/saferCode-recap.md"
+        }
+      ]
+    }
+  ]
+}

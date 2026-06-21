@@ -1,0 +1,9 @@
+{
+    "boxlang.debugger.moduleVersion": "1.1.1+2",
+    "demoTime.defaultFileType": "json",
+    "demoTime.api.enabled": true,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.activityBar.location": "default"
+}

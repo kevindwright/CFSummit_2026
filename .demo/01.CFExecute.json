@@ -1,0 +1,70 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "CFQuery vs CFExecute",
+  "description": "",
+  "version": 3,
+  "scenes": [
+    {
+      "title": "Introduction Slide",
+      "description": "Intro",
+      "moves": [
+        {
+          "action": "setTheme",
+          "theme": "Default Dark Modern"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/cfExecute-intro.md"
+        }
+      ]
+    },
+    {
+      "title": "Legacy CFQuery",
+      "description": "Legacy CFQuery",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "01-queryExecute/1A_queryExecute.cfm",
+          "position": "1:5",
+          "highlightWholeLine": true,
+          "highlightOpacity": 0.25
+        }
+      ]
+    },
+    {
+      "title": "CFExecute",
+      "description": "CFExecute",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "01-queryExecute/1A_queryExecute.cfm",
+          "position": "9:15",
+          "highlightWholeLine": true,
+          "highlightOpacity": 0.25
+        }
+      ]
+    },
+    {
+      "id": "scene-mqa3susa-0197",
+      "title": "Dynamic CFC",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "01-queryExecute/1C_queryExecute.cfm",
+          "position": "12:27",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "title": "Review and Recap",
+      "description": "Recap queryExecute benefits",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/cfExecute-recap.md"
+        }
+      ]
+    }
+  ]
+}

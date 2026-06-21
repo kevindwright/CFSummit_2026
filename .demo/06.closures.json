@@ -1,0 +1,64 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Closures",
+  "description": "",
+  "version": 3,
+  "scenes": [
+    {
+      "id": "scene-mqaz1a2w-gxia",
+      "title": "Introduction",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/closures-intro.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mqb7lcrr-dovu",
+      "title": "Captured",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "06-closures/6A_closures.cfm",
+          "position": "1:18",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqfl7dxz-kojv",
+      "title": "Encapsulated",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "06-closures/6B_closures.cfm",
+          "position": "1:23",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqflfsrz-98gu",
+      "title": "Callback",
+      "moves": [
+        {
+          "action": "highlight",
+          "path": "06-closures/6c_closures.cfm",
+          "position": "1:15",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqflntxj-f6dv",
+      "title": "Review and Recap",
+      "moves": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/closures-recap.md"
+        }
+      ]
+    }
+  ]
+}

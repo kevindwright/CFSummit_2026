@@ -1,0 +1,63 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Working Demo",
+  "description": "",
+  "version": 3,
+  "demos": [
+    {
+      "id": "scene-mqh68f9l-ftbd",
+      "title": "Introduction",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/workingDemo.md"
+        }
+      ]
+    },
+    {
+      "id": "scene-mqmhyl7p-x3ue",
+      "title": "Legacy Version",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "09-workingDemo/legacy.cfm",
+          "position": "1:2",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "scene-mqmj7vtz-knfb",
+      "title": "Open Browser",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "http://cfsummit.localhost/demos/09-workingDemo/legacy.cfm"
+        }
+      ]
+    },
+    {
+      "id": "demo-mqmk3nu1-istq",
+      "title": "Modern Version",
+      "steps": [
+        {
+          "action": "highlight",
+          "path": "09-workingDemo/modern.cfm",
+          "position": "1:2",
+          "highlightWholeLine": true
+        }
+      ]
+    },
+    {
+      "id": "demo-mqmkirwe-325c",
+      "title": "Open Browser - Modern",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "http://cfsummit.localhost/demos/09-workingDemo/modern.cfm",
+          "openInVSCode": false
+        }
+      ]
+    }
+  ]
+}
